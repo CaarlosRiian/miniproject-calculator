@@ -1,0 +1,502 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+/* end Fonts */
+
+.calculator-base {
+    background-color: black;
+    width: 420px;
+    height: 550px;
+    border-radius: 8px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.result-content {
+    background-color: white;
+    height: 85px;
+    width: 385px;
+    border-radius: 8px;
+
+    position: absolute;
+    left: 50%;
+    top: 11%;
+    transform: translate(-50%, -50%);
+}
+
+/* Buttons */
+
+.button-c {
+    width: 220px;
+    height: 70px;
+    font-size: 30px;
+    color: white;
+
+    position: absolute;
+    left: 28%;
+    top: 185%;
+    transform: translate(-50%, -50%);
+}
+
+.button-c:hover {
+    width: 220px;
+    height: 70px;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(205, 0, 0);
+    transition: 0.5s;
+
+    position: absolute;
+    left: 28%;
+    top: 185%;
+    transform: translate(-50%, -50%);
+}
+
+.button-x {
+    width: 165px;
+    height: 70px;
+    font-size: 30px;
+    color: white;
+
+    position: absolute;
+    left: 79%;
+    top: 185%;
+    transform: translate(-50%, -50%);
+}
+
+.button-x:hover {
+    width: 165px;
+    height: 70px;
+    font-size: 30px;
+    color: white;
+    background-color: #898989 ;
+    transition: 0.5s;
+
+    position: absolute;
+    left: 79%;
+    top: 185%;
+    transform: translate(-50%, -50%);
+}
+
+.button-7 {
+    width: 90px;
+    height: 70px;
+    font-size: 30px;
+    color: white;
+
+    position: absolute;
+    left: 11%;
+    top: 270%;
+    transform: translate(-50%, -50%);
+}
+
+.button-7:hover {
+    width: 90px;
+    height: 70px;
+    font-size: 30px;
+    color: white;
+    background-color: #898989 ;
+    transition: 0.5s;
+
+    position: absolute;
+    left: 11%;
+    top: 270%;
+    transform: translate(-50%, -50%);
+}
+
+.button-8 {
+    width: 90px;
+    height: 70px;
+    font-size: 30px;
+    color: white;
+
+    position: absolute;
+    left: 35%;
+    top: 270%;
+    transform: translate(-50%, -50%);
+}
+
+.button-8:hover {
+    width: 90px;
+    height: 70px;
+    font-size: 30px;
+    color: white;
+    background-color: #898989 ;
+    transition: 0.5s;
+
+    position: absolute;
+    left: 35%;
+    top: 270%;
+    transform: translate(-50%, -50%);
+}
+
+.button-9 {
+    width: 90px;
+    height: 70px;
+    font-size: 30px;
+    color: white;
+
+    position: absolute;
+    left: 59%;
+    top: 270%;
+    transform: translate(-50%, -50%);
+}
+
+.button-9:hover {
+    width: 90px;
+    height: 70px;
+    font-size: 30px;
+    color: white;
+    background-color: #898989 ;
+    transition: 0.5s;
+
+    position: absolute;
+    left: 59%;
+    top: 270%;
+    transform: translate(-50%, -50%);
+}
+
+.button-divisor {
+    width: 113px;
+    height: 70px;
+    font-size: 30px;
+    color: white;
+
+    position: absolute;
+    left: 85.5%;
+    top: 270%;
+    transform: translate(-50%, -50%);
+}
+
+.button-divisor:hover {
+    width: 113px;
+    height: 70px;
+    font-size: 30px;
+    color: white;
+    background-color: #898989 ;
+    transition: 0.5s;
+
+    position: absolute;
+    left: 85.5%;
+    top: 270%;
+    transform: translate(-50%, -50%);
+}
+
+.button-4 {
+    width: 90px;
+    height: 70px;
+    font-size: 30px;
+    color: white;
+
+    position: absolute;
+    left: 11%;
+    top: 355%;
+    transform: translate(-50%, -50%);
+}
+
+.button-4:hover {
+    width: 90px;
+    height: 70px;
+    font-size: 30px;
+    color: white;
+    background-color: #898989 ;
+    transition: 0.5s;
+
+    position: absolute;
+    left: 11%;
+    top: 355%;
+    transform: translate(-50%, -50%);
+}
+
+.button-5 {
+    width: 90px;
+    height: 70px;
+    font-size: 30px;
+    color: white;
+
+    position: absolute;
+    left: 35%;
+    top: 355%;
+    transform: translate(-50%, -50%);
+}
+
+.button-5:hover {
+    width: 90px;
+    height: 70px;
+    font-size: 30px;
+    color: white;
+    background-color: #898989 ;
+    transition: 0.5s;
+
+    position: absolute;
+    left: 35%;
+    top: 355%;
+    transform: translate(-50%, -50%);
+}
+
+.button-6 {
+    width: 90px;
+    height: 70px;
+    font-size: 30px;
+    color: white;
+
+    position: absolute;
+    left: 59%;
+    top: 355%;
+    transform: translate(-50%, -50%);
+}
+
+.button-6:hover {
+    width: 90px;
+    height: 70px;
+    font-size: 30px;
+    color: white;
+    background-color: #898989 ;
+    transition: 0.5s;
+
+    position: absolute;
+    left: 59%;
+    top: 355%;
+    transform: translate(-50%, -50%);
+}
+
+.button-aless {
+    width: 113px;
+    height: 70px;
+    font-size: 30px;
+    color: white;
+
+    position: absolute;
+    left: 85.5%;
+    top: 355%;
+    transform: translate(-50%, -50%);
+}
+
+.button-aless:hover {
+    width: 113px;
+    height: 70px;
+    font-size: 30px;
+    color: white;
+    background-color: #898989 ;
+    transition: 0.5s;
+
+    position: absolute;
+    left: 85.5%;
+    top: 355%;
+    transform: translate(-50%, -50%);
+}
+
+.button-1 {
+    width: 90px;
+    height: 70px;
+    font-size: 30px;
+    color: white;
+
+    position: absolute;
+    left: 11%;
+    top: 440%;
+    transform: translate(-50%, -50%);
+}
+
+.button-1:hover {
+    width: 90px;
+    height: 70px;
+    font-size: 30px;
+    color: white;
+    background-color: #898989 ;
+    transition: 0.5s;
+
+    position: absolute;
+    left: 11%;
+    top: 440%;
+    transform: translate(-50%, -50%);
+}
+
+.button-2 {
+    width: 90px;
+    height: 70px;
+    font-size: 30px;
+    color: white;
+
+    position: absolute;
+    left: 35%;
+    top: 440%;
+    transform: translate(-50%, -50%);
+}
+
+.button-2:hover {
+    width: 90px;
+    height: 70px;
+    font-size: 30px;
+    color: white;
+    background-color: #898989 ;
+    transition: 0.5s;
+
+    position: absolute;
+    left: 35%;
+    top: 440%;
+    transform: translate(-50%, -50%);
+}
+
+.button-3 {
+    width: 90px;
+    height: 70px;
+    font-size: 30px;
+    color: white;
+
+    position: absolute;
+    left: 59%;
+    top: 440%;
+    transform: translate(-50%, -50%);
+}
+
+.button-3:hover {
+    width: 90px;
+    height: 70px;
+    font-size: 30px;
+    color: white;
+    background-color: #898989 ;
+    transition: 0.5s;
+
+    position: absolute;
+    left: 59%;
+    top: 440%;
+    transform: translate(-50%, -50%);
+}
+
+.button-more {
+    width: 113px;
+    height: 70px;
+    font-size: 30px;
+    color: white;
+
+    position: absolute;
+    left: 85.5%;
+    top: 440%;
+    transform: translate(-50%, -50%);
+}
+
+.button-more:hover {
+    width: 113px;
+    height: 70px;
+    font-size: 30px;
+    color: white;
+    background-color: #898989;
+    transition: 0.5s;
+
+    position: absolute;
+    left: 85.5%;
+    top: 440%;
+    transform: translate(-50%, -50%);
+}
+
+.button-0 {
+    width: 185px;
+    height: 70px;
+    font-size: 30px;
+    color: white;
+
+    position: absolute;
+    left: 23%;
+    top: 525%;
+    transform: translate(-50%, -50%);
+}
+
+.button-0:hover {
+    width: 185px;
+    height: 70px;
+    font-size: 30px;
+    color: white;
+    background-color: #898989 ;
+    transition: 0.5s;
+
+    position: absolute;
+    left: 23%;
+    top: 525%;
+    transform: translate(-50%, -50%);
+}
+
+.button-point {
+    width: 90px;
+    height: 70px;
+    font-size: 30px;
+    color: white;
+
+    position: absolute;
+    left: 59%;
+    top: 525%;
+    transform: translate(-50%, -50%);
+}
+
+.button-point:hover {
+    width: 90px;
+    height: 70px;
+    font-size: 30px;
+    color: white;
+    background-color: #898989 ;
+    transition: 0.5s;
+
+    position: absolute;
+    left: 59%;
+    top: 525%;
+    transform: translate(-50%, -50%);
+}
+
+.button-result {
+    width: 113px;
+    height: 70px;
+    font-size: 30px;
+    color: white;
+
+    position: absolute;
+    left: 85.5%;
+    top: 525%;
+    transform: translate(-50%, -50%);
+}
+
+.button-result:hover {
+    width: 113px;
+    height: 70px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(243, 155, 5);
+    transition: 0.5s;
+
+    position: absolute;
+    left: 85.5%;
+    top: 525%;
+    transform: translate(-50%, -50%);
+}
+
+/* end Buttons*/
+
+.logo-calculator {
+    background-color: rgb(229, 229, 0);
+    width: 90px;
+    text-align: center;
+    font-family:"Sevillana", cursive;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 20px 60px 80px 40px;
+
+    position: absolute;
+    left: 85.5%;
+    top: 573%;
+    transform: translate(-50%, -50%); 
+}
+
+h1 {
+    background-color: #d5d5d5;
+    width: 160px;
+    height: 50px;
+    text-align: center;
+    color: rgb(73, 73, 73);
+    border-radius: 8px;
+
+    position: absolute;
+    left: 7%;
+    top: 3%;
+    transform: translate(-50%, -50%); 
+}
